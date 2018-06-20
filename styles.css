@@ -1,0 +1,45 @@
+header{
+	width:350px;
+	height:100px;
+	margin: 0 auto;
+	background-color: #FACC2E;
+}
+
+.wrapper{
+	display: flex;
+	padding: 20px;
+	box-sizing: border-box;
+	border-top: 10px solid #585858;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.date{
+	font-size: 45px;
+	margin-right: 20px;
+	color:#585858;
+	font-weight: bold;
+}
+
+.container{
+	margin-top: 3px;
+}
+
+.month{
+	font-size: 18px;
+	color:#585858;
+	font-weight: bold;
+}
+
+.year{
+	font-size: 18px;
+	color:#585858;
+	font-weight: bold;
+}
+
+.day{
+	font-size: 18px;
+	color:#585858;
+	font-weight: bold;
+	margin-left: auto;
+	align-self: center;
+}
