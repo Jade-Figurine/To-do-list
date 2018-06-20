@@ -1,6 +1,19 @@
+body{
+	font-family: 'Arimo', sans-serif;
+}
+
 header{
 	display: flex;
 	padding: 20px;
+}
+
+form, ul{
+	display: none;
+}
+
+p{
+	padding:0;
+	margin: 0;
 }
 
 .wrapper{
@@ -46,6 +59,7 @@ header{
 
 .body-list{
 	display: flex;
+	flex-direction: column;
 	height: 400px;
 	width: 100%;	
 	margin-top: 5px;
@@ -77,4 +91,78 @@ header{
     border-radius:30px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     cursor: pointer;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+
+/*+++++++++++ADD BY JS +++++++++++++*/
+
+.addInput{	
+	width:60%;
+	border:none;	
+	box-shadow: 0 10px 12px -4px rgba(0,0,0,0.5);
+}
+
+.list{
+	display: block;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: #FACC2E;
+	list-style: none;
+}
+
+.item{
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	flex: 0 0 auto;
+	background-color: #FFFFFF;
+	width: 98%;	
+	margin:0 auto;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	padding:10px 20px;
+	box-sizing:border-box;
+	border-radius: 10%;
+	
+}
+
+.check, .edit, .delete{
+	display: block;
+	width: 16px;
+	height: 16px;	
+	background-repeat: no-repeat;
+}
+
+.check{
+	background-image: url('images/checkmark.svg');
+	margin-right: 18px;	
+}
+
+.edit{	
+	margin-left: auto;
+	background-image: url('images/pencil.svg');
+	margin-right: 10px;		
+}
+
+.delete{
+	background-image: url('images/cross.svg')
+}
+
+
+.check:hover, .edit:hover, .delete:hover{
+	opacity: 0.8;
+}
+
+.inputValue{
+	color:#585858;
+	min-width: 0;
+	max-width: 200px;
 }
