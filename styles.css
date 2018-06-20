@@ -1,16 +1,16 @@
 header{
-	width:350px;
-	height:100px;
-	margin: 0 auto;
-	background-color: #FACC2E;
+	display: flex;
+	padding: 20px;
 }
 
 .wrapper{
-	display: flex;
-	padding: 20px;
+	width:350px;
+	height:100px;
+	margin: 0 auto;	
 	box-sizing: border-box;
 	border-top: 10px solid #585858;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color: #FACC2E;
 }
 
 .date{
@@ -42,4 +42,39 @@ header{
 	font-weight: bold;
 	margin-left: auto;
 	align-self: center;
+}
+
+.body-list{
+	display: flex;
+	height: 400px;
+	width: 100%;	
+	margin-top: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+}
+
+.task{
+	align-self: center;
+	width: 100%;
+	margin:0;
+	color:#585858;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+}
+
+.btn{
+	display:block;
+    width: 60px;
+    height: 60px;
+    margin: -35px auto;    
+    color:#585858;
+    font-size:35px;   
+    background-color:#FACC2E;
+    border:none;
+    border-radius:30px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
